@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-height: 10rem;
 }
 .planHead {
   padding: 1rem;
@@ -30,5 +31,33 @@
   position: relative;
   font-family: Arial;
 }
-
-
+.selctDiv{
+  display: flex;
+  justify-content: space-between;
+  border:1px solid #333;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+.options
+{
+  display: flex;
+  flex-direction: column;
+  border:1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.options .opt{
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  display: flex;
+  gap:0.5rem;
+}
+.opt:hover{
+  background-color: #eae8e4;
+}
+.optIcon{
+  font-size: 1.5rem;
+}
