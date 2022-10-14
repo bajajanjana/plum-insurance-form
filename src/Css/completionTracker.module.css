@@ -1,0 +1,15 @@
+.tracker{
+    display: flex;
+    gap:1rem;
+    padding-top: 5rem;
+}
+.block{
+    height: 0.5rem;
+    width: 25%;
+}
+.tracked{
+    background-color: #e06358;
+}
+.notTracked{
+    background-color: #999;
+}

@@ -1,0 +1,36 @@
+.formLayout{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    padding-top: 2rem;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+.bottomBar{
+    width:100%;
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    position: fixed;
+    bottom: 0;
+    box-shadow: -5px 0px 5px #ddd;
+    display: flex;
+    justify-content: flex-end;
+}
+.next{
+    margin-right: 2rem;
+    width:15rem;
+    background-color:#e06358;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    padding: 0.8rem 2rem;
+    align-items: center;
+    font-size: 1rem;
+}
+.layout{
+    position: relative;
+}

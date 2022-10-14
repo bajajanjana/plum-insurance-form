@@ -1,0 +1,41 @@
+.amountDetails {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.amountHead {
+  padding: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e1e5eb;
+}
+.range{
+    width:100%;
+    padding:1rem;
+}
+.range input{
+    width:90%;
+}
+.rangeLabel{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 0;
+}
+.rangeLabel{
+    list-style: none;
+}
+.rupee{
+  font-size: 1.1rem;
+  position: relative;
+  top:3px;
+}
+.slider{
+  margin-top: 1rem;
+}

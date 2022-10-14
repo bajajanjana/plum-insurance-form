@@ -1,0 +1,44 @@
+.preview{
+    background-color: #fff;
+    width: 30%;
+    border-radius: 5px;
+    max-height: 30vh;
+}
+.previewHead{
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e1e5eb;
+    align-items: center;
+    justify-content: center;
+}
+.previewHead>div{
+    color:#555;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.dataSheet
+{
+    background-color: #fff;
+    border-radius: 5px;
+    gap:1rem;
+    color:#333;
+    padding:1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.dataRow{
+    display: flex;
+}
+.dataRow div:first-child{
+    width:40%;
+    color:#777;
+    font-size: small;
+}
+.dataRow div:nth-child(2)
+{
+    width:60%;
+    color:#333;
+    font-weight: 500;
+}

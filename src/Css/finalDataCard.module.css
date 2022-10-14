@@ -1,0 +1,24 @@
+.dataSheet
+{
+    background-color: #fff;
+    border-radius: 5px;
+    gap:1rem;
+    color:#333;
+    padding:1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.dataRow{
+    display: flex;
+}
+.dataRow div:first-child{
+    width:40%;
+    color:#777;
+}
+.dataRow div:nth-child(2)
+{
+    width:60%;
+    color:#333;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
